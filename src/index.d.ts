@@ -1,6 +1,6 @@
 declare module "@d0kur0/uikit" {
     import type { DefineComponent } from 'vue'
-    const button: DefineComponent<{}, {}, any>
+    const Button: DefineComponent<{}, {}, any>
 
-    export { button };
+    export { Button };
 }
