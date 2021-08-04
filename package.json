@@ -1,7 +1,9 @@
 {
-  "name": "uikit",
+  "name": "@d0kur0/uikit",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve ./src/main.ts",
     "build": "vue-cli-service build --target lib ./src/index.ts",
