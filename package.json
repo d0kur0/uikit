@@ -1,6 +1,6 @@
 {
   "name": "@d0kur0/uikit",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/uikit-common.js",
   "types": "src/index.d.ts",
   "publishConfig": {
