@@ -1,6 +1,7 @@
 {
   "name": "@d0kur0/uikit",
   "version": "0.1.0",
+  "main": "dist/uikit-common.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
