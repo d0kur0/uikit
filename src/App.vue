@@ -1,7 +1,7 @@
 <template>
   <h1>Buttons</h1>
 
-  <div class="gap">
+  <Gap>
     <Button>
       Default button
     </Button>
@@ -9,17 +9,19 @@
     <Button :transparent="true">
       Button with out background
     </Button>
-  </div>
+  </Gap>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Button from './components/Button.vue';
+import Gap from './components/Gap.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    Button
+    Button,
+    Gap
   }
 });
 </script>
@@ -27,10 +29,5 @@ export default defineComponent({
 <style>
 #app {
   font-family: sans-serif;
-}
-
-.gap {
-  display: flex;
-  gap: 10px;
 }
 </style>
